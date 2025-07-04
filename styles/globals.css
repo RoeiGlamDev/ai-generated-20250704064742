@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-montserrat;
+}
+
+a {
+  @apply text-blue-600 hover:text-blue-800;
+}
+
+.video-card {
+  @apply bg-gray-100 p-4 rounded-lg shadow-md;
+}
+
+.video-card img {
+  @apply rounded-lg;
+}
